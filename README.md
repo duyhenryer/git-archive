@@ -1,5 +1,5 @@
 # git-archive
-Archiving your organization
+Archiving repository your organization.
 
 Replace your token and organization in file `archive.sh`.
 ```bash
