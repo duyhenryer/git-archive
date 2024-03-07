@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# Set up authentication credentials
+# Set up
 TOKEN="your_pat_token"
 ORG="your_organization_name"
+REPO_FILE="repository_list.txt"
 
 # Set up the API endpoint
 URL="https://api.github.com/repos/$ORG"
-
-REPO_FILE="repository_list.txt"
 
 # Archive each repository in the organization
 while IFS= read -r REPO_NAME; do
