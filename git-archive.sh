@@ -31,4 +31,3 @@ while IFS= read -r REPO_NAME; do
     echo "Repository \"$REPO_NAME\" archive failed with status code: $RESPONSE"
   fi
 done < "$REPO_FILE"
-
